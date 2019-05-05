@@ -1,0 +1,25 @@
+1. Download Anaconda3 4.2.0 with python-3.5 only on Windows 10
+2. Open Anaconda prompt
+	1. conda create -n tensorflow python=3.5 anaconda         #creates an environment named "tensorflow", we can use any name
+	2. activate tensorflow
+	3. pip install --ignore-installed --upgrade tensorflow
+	4. conda install theano
+	5. conda install mingw libpython
+	6. conda list theano    #To check what theano version is installed
+	7. pip install tensorflow or conda install tensorflow whichever work
+	8. pip install keras or conda install keras whichever work
+	9. python -c "from keras import backend; print(backend._BACKEND)"     #To check out keras is currently using tensorflow or theano backend.
+	11. spyder     #to launch spyder from tensorflow environment
+
+3. Always launch spyder from tensorflow environment
+	1. open Anaconda prompt
+	2. activate tensorflow
+	3. spyder
+
+Documents to refer:
+https://medium.com/@pushkarmandot/installing-tensorflow-theano-and-keras-in-spyder-84de7eb0f0df
+https://gettocode.com/2016/12/02/keras-on-theano-and-tensorflow-on-windows-and-linux/
+https://medium.com/learning-machine-learning/getting-tensorflow-theano-and-keras-on-windows-70c18f2c533b
+https://www.tensorflow.org/install/install_windows
+http://deeplearning.net/software/theano/install_windows.html
+https://keras.io/#installation
